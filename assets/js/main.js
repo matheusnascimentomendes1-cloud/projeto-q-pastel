@@ -8,7 +8,7 @@ let mes = agora.getMonth()+ 1;
 const ano = agora.getFullYear();
 
 let hora = agora.getHours();
-const minuto = agora.getMinutes();
+let minuto = agora.getMinutes();
 
 if (dia < 10) dia = "0" + dia;
 if (mes < 10) mes = "0" + mes;
